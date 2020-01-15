@@ -1,0 +1,17 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>RxUserControl.xaml</DefaultName>
+    <Name>RxUserControl</Name>
+    <Description>RxUserControl</Description>
+    <ProjectType>CSharp</ProjectType>
+	<ProjectSubType>WPF</ProjectSubType>
+    <SortOrder>10</SortOrder>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="Designer" TargetFileName="$fileinputname$.xaml" ReplaceParameters="true">RxUserControl.xaml</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$fileinputname$.xaml.cs" ReplaceParameters="true">RxUserControl.xaml.cs</ProjectItem>
+	<ProjectItem SubType="Code" TargetFileName="$fileinputname$ViewModel.cs" ReplaceParameters="true">RxUserControlViewModel.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
