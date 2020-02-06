@@ -11,8 +11,9 @@ namespace $rootnamespace$
         {
             HostScreen = screen;
         }
-		
-		public string UrlPathSegment { get; } = "$safeitemname$";
+	
+#region Generated
+	public string UrlPathSegment { get; } = "$safeitemname$";
 
         public IScreen HostScreen { get; }
 
@@ -22,5 +23,6 @@ namespace $rootnamespace$
         {
             throw new NotImplementedException();
         }
+#endregion
     }
 }
