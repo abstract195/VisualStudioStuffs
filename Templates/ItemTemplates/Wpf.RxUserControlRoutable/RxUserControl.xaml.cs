@@ -15,7 +15,7 @@ using System.Windows.Shapes;
 namespace $rootnamespace$
 {
     /// <summary>
-    /// Interaction logic for $safeitemname$View.xaml
+    /// Interaction logic for $safeitemname$.xaml
     /// </summary>
     public partial class $safeitemname$ : ReactiveUserControl<$safeitemname$Model>
     {

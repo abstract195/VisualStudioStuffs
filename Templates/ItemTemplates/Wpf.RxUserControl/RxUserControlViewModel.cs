@@ -7,6 +7,6 @@ namespace $rootnamespace$
 {
     public class $safeitemname$ : ReactiveObject
     {
-		
+	
     }
 }

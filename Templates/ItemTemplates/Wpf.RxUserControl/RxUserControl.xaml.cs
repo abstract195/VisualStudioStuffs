@@ -17,13 +17,13 @@ namespace $rootnamespace$
     /// <summary>
     /// Interaction logic for $safeitemname$.xaml
     /// </summary>
-    public partial class $safeitemname$ : ReactiveUserControl<$safeitemname$ViewModel>
+    public partial class $safeitemname$ : ReactiveUserControl<$safeitemname$Model>
     {
         public $safeitemname$()
         {
             InitializeComponent();
 
-            ViewModel = new $safeitemname$ViewModel();
+            ViewModel = new $safeitemname$Model();
         }
     }
 }
